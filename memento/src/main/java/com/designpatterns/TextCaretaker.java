@@ -2,11 +2,9 @@ package com.designpatterns;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Observable;
-import java.util.Observer;
 
 public class TextCaretaker {
-
+	
 	private List<TextMemento> states = new LinkedList<TextMemento>();
 
 	public void setMemenot(TextMemento memento) {
